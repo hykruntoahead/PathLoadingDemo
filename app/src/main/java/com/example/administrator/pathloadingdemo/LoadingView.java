@@ -84,7 +84,7 @@ public class LoadingView extends View {
         super.onSizeChanged(w, h, oldw, oldh);
         int min = Math.min(w, h);
 
-        mWidth = min < 100 ? 100 : min;
+        mWidth = min < 64 ? 64 : min;
 
         initRectF();
     }
